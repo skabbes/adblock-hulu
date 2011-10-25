@@ -2,7 +2,7 @@
 Adblock-hulu is a firefox addon experiment playing with request / response manipulation.  It aims to disable Hulu ads.
 
 ## Try it out
-A recent version of adblock-hulu is usually available [here](http://skpics.com/adblock-hulu/adblock-hulu.xpi).
+A recent version of adblock-hulu is usually available [here](http://skpics.com/adblock-hulu/adblock-hulu.xpi).  Be sure to clear your browser cache before using it.
 
 ## How it works
 By listening to traffic on Hulu's webpage, we can inject our own ads into hulu's stream.  I have custom tailored a blank flv file to replace Hulu ads with.  This effectivly makes the ads 0-length, and is very quick to "finish".
