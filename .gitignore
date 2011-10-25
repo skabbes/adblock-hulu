@@ -2,3 +2,4 @@ build
 *.xpi
 ftp.txt
 upload.bat
+upload.sh

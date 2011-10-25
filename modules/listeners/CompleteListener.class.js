@@ -1,3 +1,8 @@
+// ======================================================================  
+// CompleteListener.class.js 
+// A listener which gives a callback after the request is complete
+// ======================================================================  
+
 var EXPORTED_SYMBOLS = ["CompleteListener"];
 Components.utils.import("resource://adblock-hulu-modules/common.js");
 Components.utils.import("resource://adblock-hulu-modules/listeners/PassthroughListener.class.js");

@@ -1,6 +1,13 @@
+// ======================================================================  
+// Examiner.class.js 
+// Initial entrance point into firefox's http API's
+// registering listeners to this class allows you to get callbacks when
+// requests are made, and their response are available
+// ======================================================================  
+
 var EXPORTED_SYMBOLS = ["Examiner"];
 Components.utils.import("resource://adblock-hulu-modules/common.js");
-Components.utils.import("resource://adblock-hulu-modules/alert.js");
+//Components.utils.import("resource://adblock-hulu-modules/alert.js");
 
 var observers = [];
 var handlers = [];
@@ -46,6 +53,7 @@ function onModifyRequest(subject, handler){
     var data = seekStream.read( seekStream.available() );
     subject.uploadStream.seek(0, 0);
 
+    // TODO make the upload stream actually modifiable, not just observable
     handler.request(data, subject);
 }
 

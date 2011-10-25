@@ -1,3 +1,8 @@
+// ======================================================================  
+// common.js 
+// Defines commonly used shortcuts mostly for XPCOM instantiation
+// ======================================================================  
+
 var EXPORTED_SYMBOLS = ['PR_UINT32_MAX', 'Cc', 'Ci', 'CCIN'];
 
 var PR_UINT32_MAX = 0xffffffff;

@@ -1,3 +1,8 @@
+// ======================================================================  
+// HuluAdHandler.class.js 
+// The logic which encapsulates the ad replacement for flv files
+// ======================================================================  
+
 var EXPORTED_SYMBOLS = ["HuluAdHandler"];
 
 Components.utils.import("resource://adblock-hulu-modules/alert.js");
@@ -38,8 +43,6 @@ HuluAdHandler.getHandler = function(){
 HuluAdHandler.prototype = {
     strategy: null,
     response: function(data, code, request){
-        if( code !== 0 ) return;
-
-
+        // an ad has been blocked! 
     }
 };

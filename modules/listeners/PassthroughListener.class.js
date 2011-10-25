@@ -1,3 +1,15 @@
+// ======================================================================  
+// PassthroughListener.class.js 
+//
+// A listener which copies a stream to another stream, leaving the original
+// unmodified before it reaches the browser
+//
+// This would be useful for saving http streams to disk, like songs coming
+// from Pandora.
+// PS: if you actually do this, email me, I have code you probably would
+// like to see
+// ======================================================================  
+
 var EXPORTED_SYMBOLS = ["PassthroughListener"];
 Components.utils.import("resource://adblock-hulu-modules/common.js");
 Components.utils.import("resource://adblock-hulu-modules/alert.js");

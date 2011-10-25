@@ -1,3 +1,10 @@
+// ======================================================================  
+// ModifyingByteListener.class.js 
+//
+// same as the ModifyingListener, but the callback is given as an array of
+// bytes
+// ======================================================================  
+
 var EXPORTED_SYMBOLS = ["ModifyingByteListener"];
 Components.utils.import("resource://adblock-hulu-modules/listeners/ModifyingListener.class.js");
 

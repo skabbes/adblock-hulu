@@ -1,3 +1,15 @@
+// ======================================================================  
+// ModifyingListener.class.js 
+//
+// A listener which gives a callback after the request is complete (as an
+// array of uint8's), but also gives you the option to modify the data
+// before it is passed back to the browser
+//
+// An example of when you would use this would be if you wanted to change
+// the artist name of every song on Pandora to be "justin bieber" ( just 
+// modify the incoming xml song list)
+// ======================================================================  
+
 var EXPORTED_SYMBOLS = ["ModifyingListener"];
 
 Components.utils.import("resource://adblock-hulu-modules/common.js");

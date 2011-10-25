@@ -4,6 +4,6 @@ Adblock-hulu is a firefox addon experiment playing with request / response manip
 ## Disclaimer
 This code is only for demonstrating the more powerful concept of programatic request / response maniuplation provided by the firefox addon api's.
 
-Using this addon to circumvent Hulu ads is most definantely a violation of Hulu's terms of service.
+Using this addon to circumvent Hulu ads is most definantely a violation of Hulu's [terms of service](http://www.hulu.com/terms).
 
 

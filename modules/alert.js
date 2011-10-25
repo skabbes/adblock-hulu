@@ -1,3 +1,9 @@
+// ======================================================================  
+// alert.js 
+// alerts, confirm, and prompt for non-browser contexts, useful for
+// debugging
+// ======================================================================  
+
 var EXPORTED_SYMBOLS = ["myAlert", "myPrompt", "myConfirm"];
 
 Components.utils.import("resource://adblock-hulu-modules/common.js");

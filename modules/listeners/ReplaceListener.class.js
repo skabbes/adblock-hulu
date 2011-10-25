@@ -1,3 +1,15 @@
+// ======================================================================  
+// ReplaceListener.class.js 
+//
+// A listener which replaces the contents of one stream with another
+// This is an optimization over ModifyingListener since it doesn't have
+// to wait for the original stream to complete before it starts to replace
+// its contents
+//
+// This is useful when the contents of the replacement are static or don't
+// depend on the incoming request at all
+// ======================================================================  
+
 var EXPORTED_SYMBOLS = ["ReplaceListener"];
 
 Components.utils.import("resource://adblock-hulu-modules/common.js");

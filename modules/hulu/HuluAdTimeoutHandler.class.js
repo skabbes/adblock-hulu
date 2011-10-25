@@ -1,3 +1,11 @@
+// ======================================================================  
+// HuluAdTimeoutHandler.class.js 
+//
+// This class attempts to block interactive (flash) ads with timeouts.  
+// This is mostly untested because I can't find enough interactive ads 
+// to sufficiently test this
+// ======================================================================  
+
 var EXPORTED_SYMBOLS = ["HuluAdTimeoutHandler"];
 
 Components.utils.import("resource://adblock-hulu-modules/alert.js");
