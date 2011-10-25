@@ -47,6 +47,21 @@ def deleteOldBuild():
         os.remove(file)
     shutil.rmtree("build", True)
 
+def makeUpdateRDF():
+    doc = xml.dom.minidom.parse("update.rdf")
+
+    nodes = doc.getElementsByTagName("em:version")
+    nodes[0].firstChild.nodeValue = getVersion()
+
+    nodes = doc.getElementsByTagName("em:minVersion")
+    nodes[0].firstChild.nodeValue = getMinVersion()
+
+    nodes = doc.getElementsByTagName("em:maxVersion")
+    nodes[0].firstChild.nodeValue = getMaxVersion()
+
+    file_object = open("update.rdf" , "w")
+    doc.writexml(file_object)
+
 def setupNewBuild():
     os.mkdir("build")
 
@@ -69,5 +84,6 @@ def package():
 deleteOldBuild()
 setupNewBuild()
 updateInstallRDF()
+makeUpdateRDF()
 compile()
 package()
