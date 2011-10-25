@@ -1,0 +1,3 @@
+content		adblock-hulu-chrome chrome/content/
+resource	adblock-hulu-modules modules/
+overlay     chrome://browser/content/browser.xul   chrome://adblock-hulu-chrome/content/overlay.xul

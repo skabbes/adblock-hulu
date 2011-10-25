@@ -1,0 +1,4 @@
+build
+*.xpi
+ftp.txt
+upload.bat
