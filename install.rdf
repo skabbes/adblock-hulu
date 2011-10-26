@@ -3,7 +3,7 @@
     <em:id>{9e201455-228c-4e2c-913e-ffe1a5694932}</em:id>
     <em:type>2</em:type>
     <em:name>Hulu Adblock</em:name>
-    <em:version>0.1.0.58</em:version>
+    <em:version>0.1.0.59</em:version>
     <em:creator>Me</em:creator>
     <em:contributor/>
     <em:description>Block Ads on Hulu</em:description>
@@ -12,7 +12,7 @@
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id><!-- Firefox -->
         <em:minVersion>4.0</em:minVersion>
-        <em:maxVersion>7.*</em:maxVersion>
+        <em:maxVersion>8.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>

@@ -4,13 +4,13 @@
     <Seq>
       <li>
         <Description>
-          <em:version>0.1.0.58</em:version>
+          <em:version>0.1.0.59</em:version>
           <em:targetApplication>
 
             <Description>
               <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 			  <em:minVersion>4.0</em:minVersion>
-              <em:maxVersion>7.*</em:maxVersion>
+              <em:maxVersion>8.*</em:maxVersion>
               <em:updateLink>https://box411.bluehost.com/~skpicsco/adblock-hulu/adblock-hulu.xpi</em:updateLink>
 			  <em:updateInfoURL>https://box411.bluehost.com/~skpicsco/adblock-hulu/info.xhtml</em:updateInfoURL>
             </Description>
