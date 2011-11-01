@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import xml.dom.minidom
 from glob import glob
 from functools import reduce
