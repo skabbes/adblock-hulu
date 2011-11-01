@@ -29,6 +29,8 @@ HuluAdTimeoutHandler.prototype = {
     strategy: null,
     response: function(data, code, request){
         if( code !== 0 ) return;
-        return data.replace(/<automation name="VwTimeoutLength">(.*)<\/automation>/, "<automation name=\"VwTimeoutLength\">5</automation>");
+        data = data.replace(/<automation name="VwTimeoutLength">.*?<\/automation>/, "<automation name=\"VwTimeoutLength\"><![CDATA[5]]></automation>");
+        data = data.replace(/<automation name="VwTimeout">.*?<\/automation>/, "<automation name=\"VwTimeout\"><![CDATA[5]]></automation>");
+        return data;
     }
 };
